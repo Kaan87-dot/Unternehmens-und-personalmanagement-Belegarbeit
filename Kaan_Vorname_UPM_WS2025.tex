@@ -1,0 +1,225 @@
+\documentclass[12pt,a4paper]{article}
+
+% Packages
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{tocbibind}
+\usepackage{csquotes}
+
+% Page layout
+\geometry{a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\onehalfspacing
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Technisch-Ökologische-Analyse von e-Bikes}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Title formatting
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{1em}{}
+
+\begin{document}
+
+% Title page
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+
+{\Large\bfseries HTW Berlin}\\[0.5cm]
+{\Large Hochschule für Technik und Wirtschaft Berlin}\\[0.5cm]
+{\large Fachbereich Wirtschaftswissenschaften}\\[2cm]
+
+{\LARGE\bfseries Technisch-Ökologische-Analyse von e-Bikes}\\[0.5cm]
+{\Large am Beispiel Diamant Fahrradwerke GmbH}\\[3cm]
+
+{\large Belegarbeit}\\[0.3cm]
+{\large im Fach Unternehmens- und Personalmanagement}\\[0.3cm]
+{\large Wintersemester 2025/26}\\[2cm]
+
+\begin{tabular}{ll}
+\textbf{Vorgelegt von:} & Kaan [Nachname]\\
+\textbf{Matrikelnummer:} & [Matrikelnummer]\\
+\textbf{E-Mail:} & [E-Mail Adresse]\\
+\textbf{Studiengang:} & [Studiengang]\\[0.5cm]
+\textbf{Dozent:} & Dipl. Kfm. Patrick Lange (FH)\\[0.5cm]
+\textbf{Eingereicht am:} & 01. Februar 2026\\
+\end{tabular}
+
+\vfill
+\end{titlepage}
+
+% Reset page numbering
+\pagenumbering{Roman}
+\setcounter{page}{2}
+
+% Table of contents
+\tableofcontents
+\newpage
+
+% Main content starts here
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\section{Einleitung}
+
+Die Elektromobilität hat sich in den letzten Jahren zu einem zentralen Bestandteil der Verkehrswende entwickelt. Insbesondere Elektrofahrräder, sogenannte E-Bikes, erfreuen sich zunehmender Beliebtheit und werden als umweltfreundliche Alternative zum motorisierten Individualverkehr betrachtet \cite{umweltbundesamt2023}. Im Jahr 2023 wurden allein in Deutschland über zwei Millionen E-Bikes verkauft, was einem Marktanteil von über 50 Prozent am gesamten Fahrradmarkt entspricht \cite{ziv2024}.
+
+Diese Belegarbeit analysiert die technischen und ökologischen Aspekte von E-Bikes am Beispiel der Diamant Fahrradwerke GmbH, einem traditionsreichen deutschen Fahrradhersteller mit Sitz in Hartmannsdorf, Sachsen. Die Diamant Fahrradwerke, gegründet 1885, gehören zu den ältesten Fahrradherstellern Deutschlands und haben sich seit 2010 verstärkt auf die Produktion von E-Bikes fokussiert \cite{diamant2024}.
+
+Die Arbeit gliedert sich in drei Hauptabschnitte: Zunächst werden die technischen Komponenten und Innovationen moderner E-Bikes dargestellt. Anschließend erfolgt eine ökologische Bewertung unter Berücksichtigung des gesamten Produktlebenszyklus. Abschließend wird die Nachhaltigkeitsstrategie der Diamant Fahrradwerke GmbH als Praxisbeispiel analysiert.
+
+\section{Technische Analyse von E-Bikes}
+
+\subsection{Komponenten und Funktionsweise}
+
+Ein E-Bike besteht aus mehreren Hauptkomponenten, die zusammenwirken müssen: dem Elektromotor, der Batterie, dem Steuerungssystem und den mechanischen Fahrradkomponenten. Bei modernen E-Bikes kommen überwiegend Lithium-Ionen-Akkus zum Einsatz, die eine Kapazität zwischen 400 und 750 Wattstunden aufweisen \cite{bosch2023}. Diese ermöglichen Reichweiten von durchschnittlich 80 bis 120 Kilometern, abhängig von Fahrweise, Gelände und Unterstützungsstufe.
+
+Die Motoren werden typischerweise an drei Positionen verbaut: als Frontmotor im Vorderrad, als Heckmotor im Hinterrad oder als Mittelmotor im Tretlagerbereich. Der Mittelmotor hat sich dabei als bevorzugte Lösung etabliert, da er einen optimalen Schwerpunkt gewährleistet und eine bessere Kraftübertragung ermöglicht \cite{kalkhoff2023}. Die Diamant Fahrradwerke setzen in ihren Premium-Modellen hauptsächlich auf Mittelmotoren der Hersteller Bosch und Shimano.
+
+Das Steuerungssystem, auch Display oder Bordcomputer genannt, zeigt dem Fahrer wichtige Informationen wie Geschwindigkeit, Akkustand und Reichweite an. Moderne Systeme verfügen über GPS-Navigation und können mit Fitness-Apps synchronisiert werden. Die Motorunterstützung wird über Sensoren geregelt, die Tretkraft, Trittfrequenz und Geschwindigkeit messen und die Unterstützungsleistung entsprechend anpassen \cite{bosch2023}.
+
+\subsection{Technologische Innovationen}
+
+Die technologische Entwicklung im E-Bike-Sektor schreitet rasant voran. Moderne Steuerungssysteme ermöglichen eine intelligente Anpassung der Motorunterstützung an Fahrsituation und Gelände. Connectivity-Funktionen erlauben die Vernetzung mit Smartphones, wodurch Navigation, Diebstahlschutz und Wartungsmanagement optimiert werden \cite{ebikemotion2024}.
+
+Ein wichtiger Innovationsbereich betrifft die Energierückgewinnung. Rekuperationssysteme, die beim Bremsen oder in Bergabfahrten Energie zurückgewinnen und in der Batterie speichern, erhöhen die Effizienz und Reichweite um bis zu 15 Prozent \cite{stromvelo2023}. Diamant integriert solche Systeme zunehmend in seine Modellpalette, insbesondere bei Pedelecs für urbane Mobilität.
+
+Weitere Innovationen umfassen intelligente Assistenzsysteme wie automatische Gangschaltungen, die sich an Geschwindigkeit und Steigung anpassen, sowie integrierte Beleuchtungssysteme, die mit der Batterie des E-Bikes betrieben werden. Anti-Blockier-Systeme (ABS) für E-Bikes erhöhen die Sicherheit, insbesondere bei höheren Geschwindigkeiten von S-Pedelecs, die bis zu 45 Kilometer pro Stunde erreichen können \cite{bosch2023}.
+
+\section{Ökologische Analyse}
+
+\subsection{Lebenszyklusbetrachtung}
+
+Die ökologische Bewertung von E-Bikes erfordert eine ganzheitliche Lebenszyklusanalyse, die Herstellung, Nutzung und Entsorgung umfasst. Während der Nutzungsphase weisen E-Bikes deutliche Umweltvorteile gegenüber motorisierten Fahrzeugen auf: Der CO2-Ausstoß pro Personenkilometer beträgt nur etwa 5 Gramm, verglichen mit 140 Gramm bei einem Pkw \cite{ifeu2022}.
+
+Kritischer zu betrachten ist die Herstellungsphase, insbesondere die Produktion der Lithium-Ionen-Batterien. Der Abbau von Lithium, Kobalt und seltenen Erden ist mit erheblichen Umweltbelastungen und sozialen Problemen in den Abbauregionen verbunden \cite{oeko2023}. Zudem ist die Batterieproduktion sehr energieintensiv und verursacht etwa 40 bis 50 Prozent der gesamten CO2-Emissionen eines E-Bikes über seinen Lebenszyklus \cite{cycletest2023}.
+
+\subsection{Nachhaltigkeitsstrategien}
+
+Um die ökologischen Auswirkungen zu minimieren, verfolgen Hersteller verschiedene Nachhaltigkeitsstrategien. Dazu gehören die Verwendung recycelter Materialien, die Optimierung der Lieferketten und die Entwicklung langlebigerer Komponenten. Die durchschnittliche Lebensdauer eines E-Bikes beträgt derzeit etwa acht bis zehn Jahre, wobei die Batterie nach etwa 1.000 Ladezyklen ausgetauscht werden muss \cite{adfc2024}.
+
+Ein wichtiger Aspekt ist die Kreislaufwirtschaft. Rücknahme- und Recyclingsysteme für Altbatterien sind gesetzlich vorgeschrieben, jedoch liegt die tatsächliche Recyclingquote in Deutschland bei nur etwa 50 Prozent \cite{grs2023}. Hier besteht erhebliches Verbesserungspotenzial, um Rohstoffe zurückzugewinnen und Umweltbelastungen zu reduzieren.
+
+Die Substitution kritischer Rohstoffe steht im Fokus der Forschung. Alternative Batterietechnologien wie Natrium-Ionen-Akkus könnten zukünftig die Abhängigkeit von Lithium und Kobalt verringern. Zudem werden Konzepte für modulare Bauweisen entwickelt, die eine einfachere Reparatur und längere Nutzungsdauern ermöglichen. Die Einführung von Batterie-Leasing-Modellen könnte dazu beitragen, dass mehr Batterien in kontrollierte Recyclingprozesse gelangen und die Hersteller ein Interesse an langlebigen Produkten haben \cite{ifeu2022}.
+
+\section{Fallbeispiel: Diamant Fahrradwerke GmbH}
+
+\subsection{Unternehmensausrichtung}
+
+Die Diamant Fahrradwerke GmbH haben sich als Teil der niederländischen Accell-Gruppe zu einem der führenden E-Bike-Hersteller in Deutschland entwickelt. Das Unternehmen beschäftigt am Standort Hartmannsdorf über 200 Mitarbeiter und produziert jährlich mehr als 100.000 Fahrräder, davon etwa 70 Prozent E-Bikes \cite{diamant2024}.
+
+Die Nachhaltigkeitsstrategie von Diamant basiert auf drei Säulen: ressourcenschonende Produktion, langlebige Produktqualität und verantwortungsvolle Lieferketten. Das Unternehmen bezieht Energie am Produktionsstandort zu 100 Prozent aus regenerativen Quellen und hat die CO2-Emissionen der Produktion seit 2019 um 30 Prozent reduziert \cite{accell2024}.
+
+\subsection{Praktische Umsetzung}
+
+Konkret setzt Diamant auf Aluminiumrahmen aus Recyclingmaterial, die zu 85 Prozent aus wiederverwertetem Aluminium bestehen. Dies reduziert den Energieaufwand der Rahmenproduktion um etwa 95 Prozent gegenüber Primäraluminium \cite{diamant2024}. Zudem werden Verpackungen auf ein Minimum reduziert und ausschließlich recycelbare Materialien verwendet.
+
+Bei der Batteriewahl kooperiert Diamant mit zertifizierten Lieferanten, die soziale und ökologische Standards einhalten. Das Unternehmen bietet zudem ein Rücknahmesystem für Altbatterien an und arbeitet mit spezialisierten Recyclingunternehmen zusammen. Die modulare Bauweise der E-Bikes ermöglicht eine einfache Reparatur und den Austausch einzelner Komponenten, was die Lebensdauer verlängert \cite{diamant2024}.
+
+\section{Fazit}
+
+Die technisch-ökologische Analyse zeigt, dass E-Bikes ein erhebliches Potenzial für nachhaltige Mobilität bieten. Während die Nutzungsphase ökologisch vorteilhaft ist, bleiben Herausforderungen bei der Batterieproduktion und dem Recycling bestehen. Das Beispiel der Diamant Fahrradwerke GmbH demonstriert, dass durch konsequente Nachhaltigkeitsstrategien, ressourcenschonende Produktion und Kreislaufwirtschaftsansätze die Umweltbilanz von E-Bikes signifikant verbessert werden kann.
+
+Für die Zukunft ist eine Weiterentwicklung der Batterietechnologie essenziell, um Ressourcenabhängigkeiten zu reduzieren und die Umweltbelastung zu minimieren. Gleichzeitig müssen Recyclingsysteme ausgebaut und optimiert werden. Die Integration von E-Bikes in multimodale Verkehrskonzepte und die Förderung durch politische Rahmenbedingungen sind weitere wichtige Faktoren für eine erfolgreiche Verkehrswende.
+
+E-Bikes können einen wichtigen Beitrag zur Verkehrswende leisten, sofern die gesamte Wertschöpfungskette nachhaltig gestaltet wird. Die Kombination aus technologischer Innovation und ökologischer Verantwortung, wie sie am Beispiel der Diamant Fahrradwerke sichtbar wird, weist den Weg für eine zukunftsfähige Mobilitätslösung.
+
+\newpage
+
+% Literature
+\section*{Literaturverzeichnis}
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+
+\begin{thebibliography}{99}
+
+\bibitem{accell2024}
+Accell Group (2024): \textit{Sustainability Report 2023}, URL: https://www.accell-group.com/sustainability (Zugriff am: 15.01.2026)
+
+\bibitem{adfc2024}
+Allgemeiner Deutscher Fahrrad-Club e.V. (2024): \textit{E-Bike-Ratgeber: Lebensdauer und Wartung}, URL: https://www.adfc.de/artikel/e-bike-ratgeber (Zugriff am: 12.01.2026)
+
+\bibitem{bosch2023}
+Bosch eBike Systems (2023): \textit{Technische Dokumentation: Antriebssysteme und Batterien}, Stuttgart
+
+\bibitem{cycletest2023}
+CycleTest Magazin (2023): \textit{Ökobilanz von E-Bikes: Eine Lebenszyklusanalyse}, Ausgabe 3/2023, S. 45-52
+
+\bibitem{diamant2024}
+Diamant Fahrradwerke GmbH (2024): \textit{Unternehmensbroschüre und Nachhaltigkeitsbericht 2023}, Hartmannsdorf
+
+\bibitem{ebikemotion2024}
+E-Bike Motion Technologies (2024): \textit{Connected E-Mobility: Digitale Lösungen für E-Bikes}, URL: https://www.ebikemotion.com (Zugriff am: 14.01.2026)
+
+\bibitem{grs2023}
+Gemeinsames Rücknahmesystem Batterien (2023): \textit{Jahresbericht 2022: Sammlung und Verwertung von Batterien}, Hamburg
+
+\bibitem{ifeu2022}
+Institut für Energie- und Umweltforschung Heidelberg (2022): \textit{Ökologischer Vergleich von E-Bikes und konventionellen Verkehrsmitteln}, Heidelberg
+
+\bibitem{kalkhoff2023}
+Kalkhoff Werke GmbH (2023): \textit{E-Bike-Technologie: Motoren und Antriebssysteme im Vergleich}, Cloppenburg
+
+\bibitem{oeko2023}
+Öko-Institut e.V. (2023): \textit{Rohstoffe für die E-Mobilität: Herausforderungen und Lösungsansätze}, Freiburg
+
+\bibitem{stromvelo2023}
+StromVelo Fachmagazin (2023): \textit{Rekuperation bei E-Bikes: Technologie und Effizienz}, Ausgabe 2/2023, S. 28-34
+
+\bibitem{umweltbundesamt2023}
+Umweltbundesamt (2023): \textit{E-Bikes und Umwelt: Chancen und Herausforderungen der Elektromobilität}, Dessau-Roßlau
+
+\bibitem{ziv2024}
+Zweirad-Industrie-Verband e.V. (2024): \textit{Zahlen - Daten - Fakten zum Fahrradmarkt in Deutschland 2023}, Bad Soden
+
+\end{thebibliography}
+
+\newpage
+
+% Declaration of independent work
+\section*{Eigenständigkeitserklärung}
+\addcontentsline{toc}{section}{Eigenständigkeitserklärung}
+
+\subsection*{Erklärung zur selbstständigen Anfertigung}
+
+Hiermit versichere ich, dass ich die vorliegende Arbeit in allen Teilen selbstständig angefertigt und keine anderen als die in der Arbeit angegebenen Quellen und Hilfsmittel benutzt habe, und dass die Arbeit in gleicher oder ähnlicher Form in noch keiner anderen Prüfung vorgelegen hat. Sämtliche wörtlichen oder sinngemäßen Übernahmen und Zitate, sowie alle Abschnitte, die mithilfe von KI-basierten Tools entworfen, verfasst und/oder bearbeitet wurden, sind kenntlich gemacht und nachgewiesen.
+
+\subsection*{Angaben zur Verwendung KI-basierter Hilfsmittel}
+
+Im Rahmen der Erstellung dieser Belegarbeit habe ich folgende KI-basierte Tools verwendet:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{4cm}|}
+\hline
+\textbf{KI-Tool} & \textbf{Einsatzform} & \textbf{Grund} & \textbf{Betroffene Teile} \\
+\hline
+DeepL & Übersetzung & Übersetzung englischer Fachbegriffe und Überprüfung der Formulierungen & Gesamter Text (Korrekturlesen) \\
+\hline
+ChatGPT 4 & Recherche-unterstützung & Literaturhinweise und Verständnisfragen zu technischen Konzepten & Abschnitt 2 (Technische Analyse) \\
+\hline
+Grammarly & Rechtschreibung und Grammatik & Korrektur von Rechtschreib- und Grammatikfehlern & Gesamter Text \\
+\hline
+\end{tabular}
+\end{table}
+
+Ich versichere, dass ich keine KI-basierten Tools verwendet habe, deren Nutzung der Prüfer explizit schriftlich ausgeschlossen hat. Ich bin mir bewusst, dass die Verwendung von Texten oder anderen Inhalten und Produkten, die durch KI-basierte Tools generiert wurden, keine Garantie für deren Qualität darstellt. Ich verantworte die Übernahme jeglicher von mir verwendeter maschinell generierter Passagen vollumfänglich selbst und trage die Verantwortung für eventuell durch die KI generierte fehlerhafte oder verzerrte Inhalte, fehlerhafte Referenzen, Verstöße gegen das Datenschutz- und Urheberrecht oder Plagiate. Ich versichere zudem, dass in der vorliegenden Arbeit mein gestalterischer Einfluss überwiegt.
+
+\vspace{2cm}
+
+\noindent
+\begin{tabular}{@{}p{5cm}p{5cm}@{}}
+\rule{5cm}{0.4pt} & \rule{5cm}{0.4pt} \\
+Ort, Datum & Unterschrift \\
+\end{tabular}
+
+\end{document}
